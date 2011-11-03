@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/clrscode
+# catalog-date 2007-03-29 23:17:09 +0200
+# catalog-license lppl
+# catalog-version 1.7
 Name:		texlive-clrscode
 Version:	1.7
 Release:	1
@@ -42,6 +48,7 @@ the pseudocode in the text.
 %{_texmfdistdir}/tex/latex/clrscode/clrscode.sty
 %doc %{_texmfdistdir}/doc/latex/clrscode/README
 %doc %{_texmfdistdir}/doc/latex/clrscode/clrscode.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ the pseudocode in the text.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
