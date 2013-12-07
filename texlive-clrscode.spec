@@ -6,7 +6,7 @@
 # catalog-version 1.7
 Name:		texlive-clrscode
 Version:	1.7
-Release:	3
+Release:	4
 Summary:	Typesets pseudocode as in Introduction to Algorithms
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/clrscode
