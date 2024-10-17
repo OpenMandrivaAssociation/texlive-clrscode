@@ -3,7 +3,7 @@ Version:	51136
 Release:	2
 Summary:	Typesets pseudocode as in Introduction to Algorithms
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/clrscode
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/clrscode
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/clrscode.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/clrscode.doc.r%{version}.tar.xz
